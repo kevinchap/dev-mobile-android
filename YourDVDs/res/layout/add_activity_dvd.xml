@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="#F5E9AF">
+	
+    <TextView
+	    android:id="@+id/addFilm"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Ajouter un film"
+	    android:textSize="10pt">
+	</TextView>
+	
+    <EditText
+	    android:id="@+id/editTitleFilm"
+	    android:layout_height="wrap_content"
+	    android:hint="Titre du film *"
+	    android:inputType="textPersonName"
+	    android:layout_width="fill_parent">
+	</EditText>
+	<EditText
+	    android:id="@+id/editAnneeFilm"
+	    android:layout_height="wrap_content"
+	    android:hint="Année du film *"
+	    android:inputType="textPersonName"
+	    android:layout_width="fill_parent">
+	</EditText>
+	<EditText
+	    android:id="@+id/editRealisateurFilm"
+	    android:layout_height="wrap_content"
+	    android:hint="Réalisateur du film *"
+	    android:inputType="textPersonName"
+	    android:layout_width="fill_parent">
+	</EditText>
+	<EditText
+	    android:id="@+id/editPremierActeurFilm"
+	    android:layout_height="wrap_content"
+	    android:hint="Acteur principal *"
+	    android:inputType="textPersonName"
+	    android:layout_width="fill_parent">
+	</EditText>
+	<EditText
+	    android:id="@+id/editDeuxiemeActeurFilm"
+	    android:layout_height="wrap_content"
+	    android:hint="Autre acteur principal *"
+	    android:inputType="textPersonName"
+	    android:layout_width="fill_parent">
+	</EditText>
+	
+	<Button
+	    android:id="@+id/validerAdd"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Valider l'ajout"/>
+    
+
+</LinearLayout>
